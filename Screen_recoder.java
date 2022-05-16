@@ -1,5 +1,4 @@
 import javax.swing.JOptionPane;
-import java.awt.image.BufferedImage;
 import java.io.File;
 import java.awt.Robot;
 import javax.imageio.ImageIO;
