@@ -8,7 +8,7 @@ import java.io.FileWriter;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class Screen_recoder
+public class ScreenRecoder
 {
     public static void main(String[] args) throws Exception
     {
