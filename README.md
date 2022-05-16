@@ -8,7 +8,7 @@
 - MS Windows 11
 
 
-## Screen Recorder Screen Shot: 
+## Screen Recorder Screen-Shot: 
 <p align="center">
     <img src="https://github.com/pratik139patel/Screen-Recorder/blob/master/img/Screen-Recorder-Screenshot.jpeg">
 </p>
