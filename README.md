@@ -1,6 +1,6 @@
 Requirements:
-opencv-python
-pyautogui
+- opencv-python
+- pyautogui
 
 
 Recommended & Tested on OS: MS Windows 10, MS Windows 11
