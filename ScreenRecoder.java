@@ -50,12 +50,12 @@ public class ScreenRecoder
             Robot robo = new Robot();
             Rectangle rect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
             
-            cleanDirectory("img");
-            cleanDirectory("ScreenRecording");
+            cleanDirectory("Screen Shots");
+            cleanDirectory("Screen Recording");
             
-            for(int i = 0; i < num_frames; ++i) { ImageIO.write(robo.createScreenCapture(rect), "jpeg", new File("img\\capture" + i + ".jpeg")); }
+            for(int i = 0; i < num_frames; ++i) { ImageIO.write(robo.createScreenCapture(rect), "jpeg", new File("Screen Shots\\capture" + i + ".jpeg")); }
 
-            FileWriter file_num_frames = new FileWriter("img\\frame_data.txt", false);
+            FileWriter file_num_frames = new FileWriter("Screen Shots\\frame_data.txt", false);
             file_num_frames.write(Integer.toString(num_frames));
             file_num_frames.close();
 
